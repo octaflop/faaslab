@@ -3,7 +3,7 @@ provider:
   gateway: http://127.0.0.1:8080
 
 functions:
-  hello-openfaas:
+  astro-finder:
     lang: python3
-    handler: ./hello-openfaas
-    image: foenix/hello-openfaas
+    handler: ./astro-finder
+    image: foenix/astro-finder
